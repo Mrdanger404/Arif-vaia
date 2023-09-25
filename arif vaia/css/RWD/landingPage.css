@@ -1,0 +1,48 @@
+
+@media  screen and (max-width: 720px) {
+    .body{
+        grid-template-areas: 
+        'bodyLeft bodyMiddle'
+        'bodyRight bodyMiddle'
+        ;
+    }
+    input:focus{
+        
+    }
+    .dropdown-content{
+        width: 200px;
+        margin-right: 40px;
+    }
+    .dropdown-content a{
+        margin: 0 auto;
+        z-index: 1;
+        padding-left: 10px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+}
+    .phone-image{
+        width: 140px;
+    }
+    .body-left h2,.body-right h2{
+        width: 160px;
+    }
+    .news-content{
+        width: 120px;
+    }
+    .body-left{
+        display: flex;
+        align-items: center;
+    }
+    .latest-news{
+        width: 160px;
+
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+}
+
